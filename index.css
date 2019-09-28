@@ -1,0 +1,136 @@
+body {
+    background: url(img/background.jpg);
+    font-family: 'Fresca', sans-serif;
+    overflow: hidden;
+}
+
+#current-temperature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    margin: 5% auto;
+    padding: 25px 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: hsla(216, 100%, 60%, 0.8);
+}
+
+#speech-detection-on{
+    position: relative;
+    z-index: 2;
+    top: -105px;
+    right: -1115px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 25px;
+}
+
+#speech-detection-on:hover {
+    color: red;
+    border: none;
+    margin: 1px;
+    cursor: pointer;
+}
+
+#text{
+    font-size: 33px;
+    margin-bottom: 10px;
+}
+
+#current-time{
+    color: #636363;
+    margin-bottom: 10px;
+}
+
+#temperature{
+    font-size: 40px;
+}
+
+ul li {
+    list-style-type: none;
+    font-size: 21px;
+    text-align: left;
+    color: #FFFFFF;
+    font-family: 'Fresca', sans-serif;
+    letter-spacing: 0.2px;
+}
+
+#getWeather {
+    padding: 12px 14px;
+    font-size: 17px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Fresca', sans-serif;
+    background-color: #FFFFFF;
+    opacity: 0.8;
+    color: hsl(216, 100%, 60%);
+    transition: 0.5s;
+}
+
+#getWeather:hover {
+    background-color: hsla(216, 100%, 60%, 0.8);
+    color: #FFFFFF;
+    border: 3px solid #FFFFFF;
+    border-radius: 5px;
+}
+
+#butt-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+#city_input {
+    max-width:500px;
+    margin:50px auto;
+    background:white;
+    border-radius:5px;
+    box-shadow:10px 10px 0 rgba(0,0,0,0.1);
+    padding:1rem 2rem 1rem 5rem;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#d9eaf3), color-stop(4%, #fff)) 0 4px;
+    background-size: 100% 3rem;
+    position: relative;
+    line-height:3rem;
+  }
+  #city_input:before {
+    content: '';
+    position: absolute;
+    width: 4px;
+    top: 0;
+    left: 30px;
+    bottom: 0;
+    border: 1px solid;
+    border-color: transparent #efe4e4;
+  }
+
+  #weather-summary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin: auto;
+    border-radius: 10px;
+    font-family: 'Fresca', sans-serif;
+    font-size: 20px;
+    border: 2px solid black;
+    color: #FFFFFF;
+    padding: 10px;
+    line-height: 18px;
+    opacity: 0.8;
+    background-color: hsla(216, 100%, 60%, 0.8);
+    line-height: 30px;
+}
+
+#current-humidity{
+    color: black;
+    font-size: 25px;
+} #current-pressure{
+    color: black;
+    font-size: 25px;
+} #current-wind-speed{
+    color: black;
+    font-size: 25px;
+}

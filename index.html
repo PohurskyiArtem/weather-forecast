@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<link rel="stylesheet" href="index.css">
+	<link rel="icon" href="img/logo.png">
+	<script src="https://kit.fontawesome.com/71bb66204b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+		<div id="city_input" contenteditable></div>
+		<button id="speech-detection-on"><i class="fas fa-microphone"></i></button>
+	<div id="butt-wrapper"><button id="getWeather">Get Current Weather</button></div>
+	<div id="current-temperature">
+		<span id="text">Current temperature:</span>
+		<span id="current-time"></span>
+		<span id="temperature"></span>
+	</div>
+	<div id="weather-summary">
+		<ul>
+			<li id="current-humidity"></li>
+			<li id="current-pressure"></li>
+			<li id="current-wind-speed"></li>
+		</ul>
+	</div>
+<script src="index.js"></script>
+<script src="speech-detection.js"></script>
+</body>
+</html>
