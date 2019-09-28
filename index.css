@@ -1,7 +1,6 @@
 body {
     background: url(img/background.jpg);
     font-family: 'Fresca', sans-serif;
-    overflow: hidden;
 }
 
 #current-temperature {
